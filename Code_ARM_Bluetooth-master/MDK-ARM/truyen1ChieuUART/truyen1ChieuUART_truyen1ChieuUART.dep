@@ -1,0 +1,796 @@
+Dependencies for Project 'truyen1ChieuUART', Target 'truyen1ChieuUART': (DO NOT MODIFY !)
+F (startup_stm32f103xb.s)(0x5CFA1C2D)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1" -I..\\Inc-I D:\Code_ARM_Bluetooth-master\Code_ARM_Bluetooth-master\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0--pd "__UVISION_VERSION SETA 513" --pd "_RTE_ SETA 1" --pd "STM32F10X_MD SETA 1"--list startup_stm32f103xb.lst --xref -o truyen1chieuuart\startup_stm32f103xb.o --depend truyen1chieuuart\startup_stm32f103xb.d)
+F (..\Src\dwt_stm32_delay.c)(0x5CE3FF7C)(--c99 -c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3-I D:\Code_ARM_Bluetooth-master\Code_ARM_Bluetooth-master\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0-D__UVISION_VERSION="513" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o truyen1chieuuart\dwt_stm32_delay.o --omf_browse truyen1chieuuart\dwt_stm32_delay.crf --depend truyen1chieuuart\dwt_stm32_delay.d)
+I (../Inc/dwt_stm32_delay.h)(0x5CE3FF7C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5CBC6CA9)
+I (../Inc/stm32f1xx_hal_conf.h)(0x5CFA1C28)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5CBC6CA9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5CBC6C89)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5CBC6C89)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x5CBC6CA9)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54760110)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5CBC6CA9)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5CBC6CA8)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5CBC6CA9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5CBC6C89)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54760110)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5CBC6CA9)
+F (../Src/main.c)(0x5CFA32AC)(--c99 -c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3-I D:\Code_ARM_Bluetooth-master\Code_ARM_Bluetooth-master\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0-D__UVISION_VERSION="513" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o truyen1chieuuart\main.o --omf_browse truyen1chieuuart\main.crf --depend truyen1chieuuart\main.d)
+I (../Inc/main.h)(0x5CFA1C28)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5CBC6CA9)
+I (../Inc/stm32f1xx_hal_conf.h)(0x5CFA1C28)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5CBC6CA9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5CBC6C89)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5CBC6C89)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x5CBC6CA9)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54760110)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5CBC6CA9)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5CBC6CA8)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5CBC6CA9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5CBC6C89)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54760110)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5CBC6CA9)
+I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h)(0x5CBC6CB4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x5CBC6CB4)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54760110)
+I (../Inc/FreeRTOSConfig.h)(0x5CFA1C25)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x5CBC6CB4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x5CBC6CB4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x5CBC6CB4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)(0x5CBC6CB4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x5CBC6CB4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x5CBC6CB4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x5CBC6CB4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x5CBC6CB4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x5CBC6CB4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x5CBC6CB4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h)(0x5CBC6CB4)
+I (../Inc/dwt_stm32_delay.h)(0x5CE3FF7C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54760110)
+F (../Src/freertos.c)(0x5CFA1C25)(--c99 -c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3-I D:\Code_ARM_Bluetooth-master\Code_ARM_Bluetooth-master\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0-D__UVISION_VERSION="513" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o truyen1chieuuart\freertos.o --omf_browse truyen1chieuuart\freertos.crf --depend truyen1chieuuart\freertos.d)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x5CBC6CB4)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54760110)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54760110)
+I (../Inc/FreeRTOSConfig.h)(0x5CFA1C25)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x5CBC6CB4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x5CBC6CB4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x5CBC6CB4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)(0x5CBC6CB4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x5CBC6CB4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x5CBC6CB4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x5CBC6CB4)
+I (../Inc/main.h)(0x5CFA1C28)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5CBC6CA9)
+I (../Inc/stm32f1xx_hal_conf.h)(0x5CFA1C28)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5CBC6CA9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5CBC6C89)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5CBC6C89)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x5CBC6CA9)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5CBC6CA9)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5CBC6CA8)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5CBC6CA9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5CBC6C89)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54760110)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5CBC6CA9)
+F (../Src/stm32f1xx_it.c)(0x5CFA1C26)(--c99 -c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3-I D:\Code_ARM_Bluetooth-master\Code_ARM_Bluetooth-master\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0-D__UVISION_VERSION="513" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o truyen1chieuuart\stm32f1xx_it.o --omf_browse truyen1chieuuart\stm32f1xx_it.crf --depend truyen1chieuuart\stm32f1xx_it.d)
+I (../Inc/main.h)(0x5CFA1C28)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5CBC6CA9)
+I (../Inc/stm32f1xx_hal_conf.h)(0x5CFA1C28)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5CBC6CA9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5CBC6C89)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5CBC6C89)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x5CBC6CA9)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54760110)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5CBC6CA9)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5CBC6CA8)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5CBC6CA9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5CBC6C89)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54760110)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5CBC6CA9)
+I (../Inc/stm32f1xx_it.h)(0x5CFA1C26)
+I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h)(0x5CBC6CB4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x5CBC6CB4)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54760110)
+I (../Inc/FreeRTOSConfig.h)(0x5CFA1C25)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x5CBC6CB4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x5CBC6CB4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x5CBC6CB4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)(0x5CBC6CB4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x5CBC6CB4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x5CBC6CB4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x5CBC6CB4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x5CBC6CB4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x5CBC6CB4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x5CBC6CB4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h)(0x5CBC6CB4)
+F (../Src/stm32f1xx_hal_msp.c)(0x5CFA1C27)(--c99 -c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3-I D:\Code_ARM_Bluetooth-master\Code_ARM_Bluetooth-master\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0-D__UVISION_VERSION="513" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o truyen1chieuuart\stm32f1xx_hal_msp.o --omf_browse truyen1chieuuart\stm32f1xx_hal_msp.crf --depend truyen1chieuuart\stm32f1xx_hal_msp.d)
+I (../Inc/main.h)(0x5CFA1C28)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5CBC6CA9)
+I (../Inc/stm32f1xx_hal_conf.h)(0x5CFA1C28)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5CBC6CA9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5CBC6C89)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5CBC6C89)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x5CBC6CA9)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54760110)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5CBC6CA9)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5CBC6CA8)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5CBC6CA9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5CBC6C89)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54760110)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5CBC6CA9)
+F (../Src/stm32f1xx_hal_timebase_tim.c)(0x5CFA1C27)(--c99 -c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3-I D:\Code_ARM_Bluetooth-master\Code_ARM_Bluetooth-master\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0-D__UVISION_VERSION="513" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o truyen1chieuuart\stm32f1xx_hal_timebase_tim.o --omf_browse truyen1chieuuart\stm32f1xx_hal_timebase_tim.crf --depend truyen1chieuuart\stm32f1xx_hal_timebase_tim.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5CBC6CA9)
+I (../Inc/stm32f1xx_hal_conf.h)(0x5CFA1C28)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5CBC6CA9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5CBC6C89)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5CBC6C89)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x5CBC6CA9)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54760110)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5CBC6CA9)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5CBC6CA8)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5CBC6CA9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5CBC6C89)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54760110)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5CBC6CA9)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c)(0x5CBC6CAA)(--c99 -c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3-I D:\Code_ARM_Bluetooth-master\Code_ARM_Bluetooth-master\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0-D__UVISION_VERSION="513" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o truyen1chieuuart\stm32f1xx_hal_gpio_ex.o --omf_browse truyen1chieuuart\stm32f1xx_hal_gpio_ex.crf --depend truyen1chieuuart\stm32f1xx_hal_gpio_ex.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5CBC6CA9)
+I (../Inc/stm32f1xx_hal_conf.h)(0x5CFA1C28)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5CBC6CA9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5CBC6C89)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5CBC6C89)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x5CBC6CA9)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54760110)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5CBC6CA9)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5CBC6CA8)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5CBC6CA9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5CBC6C89)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54760110)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5CBC6CA9)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c)(0x5CBC6CAA)(--c99 -c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3-I D:\Code_ARM_Bluetooth-master\Code_ARM_Bluetooth-master\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0-D__UVISION_VERSION="513" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o truyen1chieuuart\stm32f1xx_hal_adc.o --omf_browse truyen1chieuuart\stm32f1xx_hal_adc.crf --depend truyen1chieuuart\stm32f1xx_hal_adc.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5CBC6CA9)
+I (../Inc/stm32f1xx_hal_conf.h)(0x5CFA1C28)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5CBC6CA9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5CBC6C89)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5CBC6C89)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x5CBC6CA9)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54760110)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5CBC6CA9)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5CBC6CA8)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5CBC6CA9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5CBC6C89)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54760110)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5CBC6CA9)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c)(0x5CBC6CAA)(--c99 -c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3-I D:\Code_ARM_Bluetooth-master\Code_ARM_Bluetooth-master\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0-D__UVISION_VERSION="513" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o truyen1chieuuart\stm32f1xx_hal_adc_ex.o --omf_browse truyen1chieuuart\stm32f1xx_hal_adc_ex.crf --depend truyen1chieuuart\stm32f1xx_hal_adc_ex.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5CBC6CA9)
+I (../Inc/stm32f1xx_hal_conf.h)(0x5CFA1C28)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5CBC6CA9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5CBC6C89)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5CBC6C89)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x5CBC6CA9)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54760110)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5CBC6CA9)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5CBC6CA8)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5CBC6CA9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5CBC6C89)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54760110)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5CBC6CA9)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c)(0x5CBC6CAB)(--c99 -c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3-I D:\Code_ARM_Bluetooth-master\Code_ARM_Bluetooth-master\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0-D__UVISION_VERSION="513" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o truyen1chieuuart\stm32f1xx_hal_tim.o --omf_browse truyen1chieuuart\stm32f1xx_hal_tim.crf --depend truyen1chieuuart\stm32f1xx_hal_tim.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5CBC6CA9)
+I (../Inc/stm32f1xx_hal_conf.h)(0x5CFA1C28)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5CBC6CA9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5CBC6C89)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5CBC6C89)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x5CBC6CA9)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54760110)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5CBC6CA9)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5CBC6CA8)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5CBC6CA9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5CBC6C89)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54760110)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5CBC6CA9)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c)(0x5CBC6CAB)(--c99 -c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3-I D:\Code_ARM_Bluetooth-master\Code_ARM_Bluetooth-master\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0-D__UVISION_VERSION="513" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o truyen1chieuuart\stm32f1xx_hal_tim_ex.o --omf_browse truyen1chieuuart\stm32f1xx_hal_tim_ex.crf --depend truyen1chieuuart\stm32f1xx_hal_tim_ex.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5CBC6CA9)
+I (../Inc/stm32f1xx_hal_conf.h)(0x5CFA1C28)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5CBC6CA9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5CBC6C89)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5CBC6C89)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x5CBC6CA9)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54760110)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5CBC6CA9)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5CBC6CA8)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5CBC6CA9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5CBC6C89)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54760110)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5CBC6CA9)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c)(0x5CBC6CAB)(--c99 -c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3-I D:\Code_ARM_Bluetooth-master\Code_ARM_Bluetooth-master\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0-D__UVISION_VERSION="513" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o truyen1chieuuart\stm32f1xx_hal_uart.o --omf_browse truyen1chieuuart\stm32f1xx_hal_uart.crf --depend truyen1chieuuart\stm32f1xx_hal_uart.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5CBC6CA9)
+I (../Inc/stm32f1xx_hal_conf.h)(0x5CFA1C28)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5CBC6CA9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5CBC6C89)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5CBC6C89)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x5CBC6CA9)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54760110)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5CBC6CA9)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5CBC6CA8)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5CBC6CA9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5CBC6C89)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54760110)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5CBC6CA9)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c)(0x5CBC6CAA)(--c99 -c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3-I D:\Code_ARM_Bluetooth-master\Code_ARM_Bluetooth-master\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0-D__UVISION_VERSION="513" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o truyen1chieuuart\stm32f1xx_hal.o --omf_browse truyen1chieuuart\stm32f1xx_hal.crf --depend truyen1chieuuart\stm32f1xx_hal.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5CBC6CA9)
+I (../Inc/stm32f1xx_hal_conf.h)(0x5CFA1C28)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5CBC6CA9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5CBC6C89)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5CBC6C89)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x5CBC6CA9)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54760110)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5CBC6CA9)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5CBC6CA8)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5CBC6CA9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5CBC6C89)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54760110)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5CBC6CA9)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c)(0x5CBC6CAB)(--c99 -c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3-I D:\Code_ARM_Bluetooth-master\Code_ARM_Bluetooth-master\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0-D__UVISION_VERSION="513" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o truyen1chieuuart\stm32f1xx_hal_rcc.o --omf_browse truyen1chieuuart\stm32f1xx_hal_rcc.crf --depend truyen1chieuuart\stm32f1xx_hal_rcc.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5CBC6CA9)
+I (../Inc/stm32f1xx_hal_conf.h)(0x5CFA1C28)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5CBC6CA9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5CBC6C89)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5CBC6C89)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x5CBC6CA9)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54760110)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5CBC6CA9)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5CBC6CA8)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5CBC6CA9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5CBC6C89)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54760110)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5CBC6CA9)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c)(0x5CBC6CAB)(--c99 -c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3-I D:\Code_ARM_Bluetooth-master\Code_ARM_Bluetooth-master\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0-D__UVISION_VERSION="513" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o truyen1chieuuart\stm32f1xx_hal_rcc_ex.o --omf_browse truyen1chieuuart\stm32f1xx_hal_rcc_ex.crf --depend truyen1chieuuart\stm32f1xx_hal_rcc_ex.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5CBC6CA9)
+I (../Inc/stm32f1xx_hal_conf.h)(0x5CFA1C28)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5CBC6CA9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5CBC6C89)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5CBC6C89)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x5CBC6CA9)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54760110)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5CBC6CA9)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5CBC6CA8)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5CBC6CA9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5CBC6C89)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54760110)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5CBC6CA9)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c)(0x5CBC6CAA)(--c99 -c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3-I D:\Code_ARM_Bluetooth-master\Code_ARM_Bluetooth-master\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0-D__UVISION_VERSION="513" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o truyen1chieuuart\stm32f1xx_hal_gpio.o --omf_browse truyen1chieuuart\stm32f1xx_hal_gpio.crf --depend truyen1chieuuart\stm32f1xx_hal_gpio.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5CBC6CA9)
+I (../Inc/stm32f1xx_hal_conf.h)(0x5CFA1C28)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5CBC6CA9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5CBC6C89)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5CBC6C89)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x5CBC6CA9)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54760110)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5CBC6CA9)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5CBC6CA8)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5CBC6CA9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5CBC6C89)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54760110)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5CBC6CA9)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c)(0x5CBC6CAA)(--c99 -c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3-I D:\Code_ARM_Bluetooth-master\Code_ARM_Bluetooth-master\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0-D__UVISION_VERSION="513" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o truyen1chieuuart\stm32f1xx_hal_dma.o --omf_browse truyen1chieuuart\stm32f1xx_hal_dma.crf --depend truyen1chieuuart\stm32f1xx_hal_dma.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5CBC6CA9)
+I (../Inc/stm32f1xx_hal_conf.h)(0x5CFA1C28)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5CBC6CA9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5CBC6C89)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5CBC6C89)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x5CBC6CA9)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54760110)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5CBC6CA9)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5CBC6CA8)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5CBC6CA9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5CBC6C89)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54760110)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5CBC6CA9)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c)(0x5CBC6CAA)(--c99 -c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3-I D:\Code_ARM_Bluetooth-master\Code_ARM_Bluetooth-master\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0-D__UVISION_VERSION="513" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o truyen1chieuuart\stm32f1xx_hal_cortex.o --omf_browse truyen1chieuuart\stm32f1xx_hal_cortex.crf --depend truyen1chieuuart\stm32f1xx_hal_cortex.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5CBC6CA9)
+I (../Inc/stm32f1xx_hal_conf.h)(0x5CFA1C28)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5CBC6CA9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5CBC6C89)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5CBC6C89)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x5CBC6CA9)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54760110)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5CBC6CA9)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5CBC6CA8)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5CBC6CA9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5CBC6C89)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54760110)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5CBC6CA9)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c)(0x5CBC6CAB)(--c99 -c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3-I D:\Code_ARM_Bluetooth-master\Code_ARM_Bluetooth-master\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0-D__UVISION_VERSION="513" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o truyen1chieuuart\stm32f1xx_hal_pwr.o --omf_browse truyen1chieuuart\stm32f1xx_hal_pwr.crf --depend truyen1chieuuart\stm32f1xx_hal_pwr.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5CBC6CA9)
+I (../Inc/stm32f1xx_hal_conf.h)(0x5CFA1C28)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5CBC6CA9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5CBC6C89)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5CBC6C89)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x5CBC6CA9)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54760110)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5CBC6CA9)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5CBC6CA8)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5CBC6CA9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5CBC6C89)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54760110)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5CBC6CA9)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c)(0x5CBC6CAA)(--c99 -c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3-I D:\Code_ARM_Bluetooth-master\Code_ARM_Bluetooth-master\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0-D__UVISION_VERSION="513" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o truyen1chieuuart\stm32f1xx_hal_flash.o --omf_browse truyen1chieuuart\stm32f1xx_hal_flash.crf --depend truyen1chieuuart\stm32f1xx_hal_flash.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5CBC6CA9)
+I (../Inc/stm32f1xx_hal_conf.h)(0x5CFA1C28)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5CBC6CA9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5CBC6C89)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5CBC6C89)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x5CBC6CA9)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54760110)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5CBC6CA9)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5CBC6CA8)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5CBC6CA9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5CBC6C89)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54760110)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5CBC6CA9)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c)(0x5CBC6CAA)(--c99 -c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3-I D:\Code_ARM_Bluetooth-master\Code_ARM_Bluetooth-master\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0-D__UVISION_VERSION="513" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o truyen1chieuuart\stm32f1xx_hal_flash_ex.o --omf_browse truyen1chieuuart\stm32f1xx_hal_flash_ex.crf --depend truyen1chieuuart\stm32f1xx_hal_flash_ex.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5CBC6CA9)
+I (../Inc/stm32f1xx_hal_conf.h)(0x5CFA1C28)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5CBC6CA9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5CBC6C89)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5CBC6C89)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x5CBC6CA9)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54760110)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5CBC6CA9)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5CBC6CA8)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5CBC6CA9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5CBC6C89)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54760110)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5CBC6CA9)
+F (../Src/system_stm32f1xx.c)(0x5CE3FF7C)(--c99 -c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3-I D:\Code_ARM_Bluetooth-master\Code_ARM_Bluetooth-master\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0-D__UVISION_VERSION="513" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o truyen1chieuuart\system_stm32f1xx.o --omf_browse truyen1chieuuart\system_stm32f1xx.crf --depend truyen1chieuuart\system_stm32f1xx.d)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5CBC6C89)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5CBC6C89)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x5CBC6CA9)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54760110)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5CBC6CA9)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5CBC6CA8)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5CBC6CA9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5CBC6C89)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5CBC6CA9)
+I (../Inc/stm32f1xx_hal_conf.h)(0x5CFA1C28)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5CBC6CA9)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54760110)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x5CBC6CA9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5CBC6CA9)
+F (../Middlewares/Third_Party/FreeRTOS/Source/croutine.c)(0x5CBC6CB4)(--c99 -c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3-I D:\Code_ARM_Bluetooth-master\Code_ARM_Bluetooth-master\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0-D__UVISION_VERSION="513" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o truyen1chieuuart\croutine.o --omf_browse truyen1chieuuart\croutine.crf --depend truyen1chieuuart\croutine.d)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x5CBC6CB4)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54760110)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54760110)
+I (../Inc/FreeRTOSConfig.h)(0x5CFA1C25)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x5CBC6CB4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x5CBC6CB4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x5CBC6CB4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)(0x5CBC6CB4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x5CBC6CB4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x5CBC6CB4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x5CBC6CB4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/croutine.h)(0x5CBC6CB4)
+F (../Middlewares/Third_Party/FreeRTOS/Source/event_groups.c)(0x5CBC6CB4)(--c99 -c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3-I D:\Code_ARM_Bluetooth-master\Code_ARM_Bluetooth-master\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0-D__UVISION_VERSION="513" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o truyen1chieuuart\event_groups.o --omf_browse truyen1chieuuart\event_groups.crf --depend truyen1chieuuart\event_groups.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54760110)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x5CBC6CB4)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54760110)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54760110)
+I (../Inc/FreeRTOSConfig.h)(0x5CFA1C25)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x5CBC6CB4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x5CBC6CB4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x5CBC6CB4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)(0x5CBC6CB4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x5CBC6CB4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x5CBC6CB4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x5CBC6CB4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x5CBC6CB4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h)(0x5CBC6CB4)
+F (../Middlewares/Third_Party/FreeRTOS/Source/list.c)(0x5CBC6CB4)(--c99 -c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3-I D:\Code_ARM_Bluetooth-master\Code_ARM_Bluetooth-master\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0-D__UVISION_VERSION="513" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o truyen1chieuuart\list.o --omf_browse truyen1chieuuart\list.crf --depend truyen1chieuuart\list.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54760110)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x5CBC6CB4)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54760110)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54760110)
+I (../Inc/FreeRTOSConfig.h)(0x5CFA1C25)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x5CBC6CB4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x5CBC6CB4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x5CBC6CB4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)(0x5CBC6CB4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x5CBC6CB4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x5CBC6CB4)
+F (../Middlewares/Third_Party/FreeRTOS/Source/queue.c)(0x5CBC6CB4)(--c99 -c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3-I D:\Code_ARM_Bluetooth-master\Code_ARM_Bluetooth-master\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0-D__UVISION_VERSION="513" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o truyen1chieuuart\queue.o --omf_browse truyen1chieuuart\queue.crf --depend truyen1chieuuart\queue.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54760110)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54760110)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x5CBC6CB4)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54760110)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54760110)
+I (../Inc/FreeRTOSConfig.h)(0x5CFA1C25)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x5CBC6CB4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x5CBC6CB4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x5CBC6CB4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)(0x5CBC6CB4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x5CBC6CB4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x5CBC6CB4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x5CBC6CB4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x5CBC6CB4)
+F (../Middlewares/Third_Party/FreeRTOS/Source/tasks.c)(0x5CBC6CB4)(--c99 -c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3-I D:\Code_ARM_Bluetooth-master\Code_ARM_Bluetooth-master\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0-D__UVISION_VERSION="513" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o truyen1chieuuart\tasks.o --omf_browse truyen1chieuuart\tasks.crf --depend truyen1chieuuart\tasks.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54760110)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54760110)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x5CBC6CB4)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54760110)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54760110)
+I (../Inc/FreeRTOSConfig.h)(0x5CFA1C25)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x5CBC6CB4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x5CBC6CB4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x5CBC6CB4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)(0x5CBC6CB4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x5CBC6CB4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x5CBC6CB4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x5CBC6CB4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x5CBC6CB4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/StackMacros.h)(0x5CBC6CB4)
+F (../Middlewares/Third_Party/FreeRTOS/Source/timers.c)(0x5CBC6CB4)(--c99 -c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3-I D:\Code_ARM_Bluetooth-master\Code_ARM_Bluetooth-master\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0-D__UVISION_VERSION="513" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o truyen1chieuuart\timers.o --omf_browse truyen1chieuuart\timers.crf --depend truyen1chieuuart\timers.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54760110)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x5CBC6CB4)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54760110)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54760110)
+I (../Inc/FreeRTOSConfig.h)(0x5CFA1C25)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x5CBC6CB4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x5CBC6CB4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x5CBC6CB4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)(0x5CBC6CB4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x5CBC6CB4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x5CBC6CB4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x5CBC6CB4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x5CBC6CB4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x5CBC6CB4)
+F (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c)(0x5CBC6CB4)(--c99 -c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3-I D:\Code_ARM_Bluetooth-master\Code_ARM_Bluetooth-master\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0-D__UVISION_VERSION="513" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o truyen1chieuuart\cmsis_os.o --omf_browse truyen1chieuuart\cmsis_os.crf --depend truyen1chieuuart\cmsis_os.d)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54760110)
+I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h)(0x5CBC6CB4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x5CBC6CB4)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54760110)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54760110)
+I (../Inc/FreeRTOSConfig.h)(0x5CFA1C25)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x5CBC6CB4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x5CBC6CB4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x5CBC6CB4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)(0x5CBC6CB4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x5CBC6CB4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x5CBC6CB4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x5CBC6CB4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x5CBC6CB4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x5CBC6CB4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x5CBC6CB4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h)(0x5CBC6CB4)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5CBC6CA8)
+F (../Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c)(0x5CBC6CB4)(--c99 -c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3-I D:\Code_ARM_Bluetooth-master\Code_ARM_Bluetooth-master\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0-D__UVISION_VERSION="513" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o truyen1chieuuart\heap_4.o --omf_browse truyen1chieuuart\heap_4.crf --depend truyen1chieuuart\heap_4.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54760110)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x5CBC6CB4)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54760110)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54760110)
+I (../Inc/FreeRTOSConfig.h)(0x5CFA1C25)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x5CBC6CB4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x5CBC6CB4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x5CBC6CB4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)(0x5CBC6CB4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x5CBC6CB4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x5CBC6CB4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x5CBC6CB4)
+F (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/port.c)(0x5CBC6CB4)(--c99 -c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3-I D:\Code_ARM_Bluetooth-master\Code_ARM_Bluetooth-master\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0-D__UVISION_VERSION="513" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o truyen1chieuuart\port.o --omf_browse truyen1chieuuart\port.crf --depend truyen1chieuuart\port.d)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x5CBC6CB4)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54760110)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54760110)
+I (../Inc/FreeRTOSConfig.h)(0x5CFA1C25)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x5CBC6CB4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x5CBC6CB4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x5CBC6CB4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)(0x5CBC6CB4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x5CBC6CB4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x5CBC6CB4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x5CBC6CB4)

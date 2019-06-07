@@ -1,0 +1,118 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.13.0.0
+Copyright (C) 2014 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: nguyen bac, ute, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.13.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARMCM3.DLL V5.13.0.0
+Dialog DLL:      DCM.DLL V1.13.1.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.14.0_KEIL
+Dialog DLL:      TCM.DLL V1.14.4.0
+ 
+<h2>Project:</h2>
+D:\Code_ARM_Bluetooth-master\Code_ARM_Bluetooth-master\MDK-ARM\truyen1ChieuUART.uvprojx
+Project File Date:  06/07/2019
+
+<h2>Output:</h2>
+Rebuild target 'truyen1ChieuUART'
+assembling startup_stm32f103xb.s...
+compiling dwt_stm32_delay.c...
+compiling main.c...
+../Src/main.c(116): warning:  #188-D: enumerated type mixed with another type
+  HAL_GPIO_WritePin(EN_Port,EN_Pin,1);
+../Src/main.c(118): warning:  #188-D: enumerated type mixed with another type
+  HAL_GPIO_WritePin(EN_Port,EN_Pin,0);  
+../Src/main.c(124): warning:  #188-D: enumerated type mixed with another type
+  HAL_GPIO_WritePin(D4_Port,D4_Pin,Data&0x01);
+../Src/main.c(125): warning:  #188-D: enumerated type mixed with another type
+  HAL_GPIO_WritePin(D5_Port,D5_Pin,(Data>>1)&0x01);
+../Src/main.c(126): warning:  #188-D: enumerated type mixed with another type
+  HAL_GPIO_WritePin(D6_Port,D6_Pin,(Data>>2)&0x01);
+../Src/main.c(127): warning:  #188-D: enumerated type mixed with another type
+  HAL_GPIO_WritePin(D7_Port,D7_Pin,(Data>>3)&0x01);     
+../Src/main.c(146): warning:  #188-D: enumerated type mixed with another type
+        HAL_GPIO_WritePin(EN_Port,EN_Pin,0);
+../Src/main.c(147): warning:  #188-D: enumerated type mixed with another type
+        HAL_GPIO_WritePin(RS_Port,RS_Pin,0);
+../Src/main.c(184): warning:  #188-D: enumerated type mixed with another type
+    HAL_GPIO_WritePin(RS_Port,RS_Pin,1);
+../Src/main.c(186): warning:  #188-D: enumerated type mixed with another type
+    HAL_GPIO_WritePin(RS_Port,RS_Pin,0);
+../Src/main.c(221): warning:  #188-D: enumerated type mixed with another type
+        HAL_GPIO_WritePin (GPIOB, GPIO_PIN_14, 0);   // pull the pin low
+../Src/main.c(548): warning:  #188-D: enumerated type mixed with another type
+                            |D6_Pin|D7_Pin|led1_Pin, GPIO_PIN_RESET);
+../Src/main.c(552): warning:  #188-D: enumerated type mixed with another type
+                            |led5_Pin|led6_Pin|led7_Pin|led8_Pin, GPIO_PIN_RESET);
+../Src/main.c(678): warning:  #188-D: enumerated type mixed with another type
+              HAL_GPIO_WritePin(GPIOB,GPIO_PIN_1,GPIO_PIN_RESET);
+../Src/main.c(685): warning:  #188-D: enumerated type mixed with another type
+                                                        HAL_GPIO_WritePin(GPIOB,GPIO_PIN_1,GPIO_PIN_RESET);
+../Src/main.c(687): warning:  #188-D: enumerated type mixed with another type
+                                                        HAL_GPIO_WritePin(GPIOB,GPIO_PIN_1,GPIO_PIN_SET);
+../Src/main.c: 16 warnings, 0 errors
+compiling freertos.c...
+compiling stm32f1xx_it.c...
+compiling stm32f1xx_hal_msp.c...
+compiling stm32f1xx_hal_timebase_tim.c...
+compiling stm32f1xx_hal_gpio_ex.c...
+compiling stm32f1xx_hal_adc.c...
+compiling stm32f1xx_hal_adc_ex.c...
+compiling stm32f1xx_hal_tim.c...
+compiling stm32f1xx_hal_tim_ex.c...
+compiling stm32f1xx_hal_uart.c...
+compiling stm32f1xx_hal.c...
+compiling stm32f1xx_hal_rcc.c...
+compiling stm32f1xx_hal_rcc_ex.c...
+compiling stm32f1xx_hal_gpio.c...
+compiling stm32f1xx_hal_dma.c...
+compiling stm32f1xx_hal_cortex.c...
+compiling stm32f1xx_hal_pwr.c...
+compiling stm32f1xx_hal_flash.c...
+compiling stm32f1xx_hal_flash_ex.c...
+compiling system_stm32f1xx.c...
+compiling croutine.c...
+compiling event_groups.c...
+compiling list.c...
+compiling queue.c...
+compiling tasks.c...
+compiling timers.c...
+compiling cmsis_os.c...
+compiling heap_4.c...
+compiling port.c...
+linking...
+Program Size: Code=14304 RO-data=388 RW-data=156 ZI-data=4620  
+FromELF: creating hex file...
+"truyen1ChieuUART\truyen1ChieuUART.axf" - 0 Error(s), 16 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.2.0.pack
+                ARM::CMSIS:CORE:3.40.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 3.40.0
+
+<h2>Collection of Component include folders:</h2>
+  D:\Code_ARM_Bluetooth-master\Code_ARM_Bluetooth-master\MDK-ARM\RTE
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include
+  C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:3.40.0
+      Source file:   CMSIS\UserCodeTemplates\ARM\ITM_Retarget.c
+</pre>
+</body>
+</html>
